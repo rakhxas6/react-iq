@@ -9,6 +9,7 @@ const Currency = () => {
   const [from, setFrom] = useState("usd");
   const [to, setTo] = useState("inr");
   const [convertedAmount, setConvertedAmount] = useState(0);
+ 
 
   const currencyInfo = useCurrencyInfo(from);
 

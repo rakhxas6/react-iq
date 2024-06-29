@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+
+.App_color_container {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
